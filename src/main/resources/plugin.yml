@@ -1,0 +1,14 @@
+name: CustomModelDataManager
+version: '${project.version}'
+main: com.ashkiano.custommodeldatamanager.CustomModelDataManager
+api-version: 1.16
+authors: [ AshKiano ]
+commands:
+  setcustommodeldata:
+    description: Sets the custom model data of the item in hand.
+    usage: /setcustommodeldata <data>
+    permission: custommodeldata.set
+permissions:
+  custommodeldata.set:
+    description: Allows the player to set custom model data.
+    default: op
